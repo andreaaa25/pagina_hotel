@@ -1,0 +1,386 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.fondo{
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	height: 645px;
+	width: 100%;
+	background-image: url("imagenes/Rectángulo 2.jpg")
+}
+.contenedor{
+	width: auto;
+	height: 55px;
+	background: black;
+	opacity: 50%;
+	padding-top: 5px;
+	padding-left: 300px;
+	list-style: none;
+	
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.contenedor li a{
+	font-family: montserrat, sans-serif;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	padding-right: 60px;
+	padding-bottom: 10px;
+}
+.contenedor li{
+	display: inline-block;
+	text-align: center;
+}
+.contenedor li a:hover{
+	color: #90EE90;
+}
+.contenedor li a img:hover{
+	cursor: pointer;
+	transform: scale(1.2,1.2);
+}
+.contenedor img{
+	position: absolute;
+ 	float: left;
+ 	vertical-align: middle;
+	width: 30px;
+	/*height: 30px;*/
+}
+#descripcion{
+	padding-top: 150px;
+	padding-left: 30px;
+	padding-right: 750px;
+}
+#descripcion p{
+	text-align: justify;
+	font-family: calibri, sans-serif;
+	font-size: 14px;
+	font-weight: lighter;
+	padding-left: 45px;
+	padding-top: 0px;
+	margin: 0px;
+	color: white;
+}
+#descripcion figure img{
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+.servicios{
+	width: 100%;
+	height: 643.99px;
+	background: #d3df9e;
+	padding: 0px;
+	margin: 0px;
+}
+.servicios h3{
+	padding-top: 40px;
+	padding-bottom: 10px;
+	margin: 0px;
+	font-family: montserrat, sans-serif;
+	font-kerning: 20px;
+	font-size: 20px;
+	text-align: center;
+}
+.servicios h4{
+	font-family: montserrat, sans-serif;
+	font-size: 16px;
+	padding-top: 0px;
+	color: #556B2F;
+}
+.servicios p{
+	font-family: calibri, sans-serif;
+	font-size: 14px;
+	text-align: justify
+}
+.servicios img{
+	height: 120px;
+	width: 120px;
+}
+.contenedorservicios{
+	padding-top: 30px;
+	padding-left: 115px;
+	padding-right: 0px;
+	text-align: center;
+}
+#gastronomia{
+	height: 437px;
+	width: 180px;
+	float: left;
+	margin-right: 50px;
+}
+#wifi{
+	height: 437px;
+	width: 180px;
+	float: left;
+	margin-right: 50px;
+}
+#piscina{
+	height: 437px;
+	width: 180px;
+	float: left;
+	margin-right: 50px;
+}
+#spa{
+	height: 437px;
+	width: 180px;
+	float: left;
+	margin-right: 50px;
+}
+#sendero{
+	height: 437px;
+	width: 180px;
+	float: left;
+	margin-right: 50px;
+}
+.habitaciones{
+	padding: 0px;
+	margin: 0px;
+}
+.habitaciones h3{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin: 0px;
+	font-family: montserrat, sans-serif;
+	font-kerning: 20px;
+	font-size: 20px;
+	text-align: center;
+}
+.habitaciones h4{
+	margin: 0px;
+	font-family: montserrat, sans-serif;
+	font-size: 16px;
+	padding-left: 160px;
+	padding-top: 30px;
+}
+.contenedorhab{
+	height: 570px;
+	width: 100%;
+	background: #F5F5F5;
+	align-content: center;
+	margin: 0px;
+	padding: 0px;
+}
+#hab1{
+	float: left;
+	padding-left: 120px;
+	margin: 0px;
+}
+#hab2{
+	float: left;
+	padding-right: 0px;
+	margin: 0px;
+}
+.habs{
+	width: 100%;
+	height: 225px;
+	margin: 0px;
+	padding: 0px;
+}
+.habs img{
+	width: 97px;
+	height: 96px;
+	margin: 0px;
+	padding: 0px;
+}
+.habs img:hover{
+	opacity: 0.3;
+}
+#tv img{
+	float: left;
+	margin: 10px;
+	padding-left: 100px;
+}
+#ac img{
+	float: left;
+	margin: 10px;
+}
+#bano img{
+	float: left;
+	margin: 10px;
+}
+.galeria{
+	width: 100%;
+	height: 690px;
+	background-image: url("imagenes/fondogaleria.png");
+	margin: 0px;
+}
+.galeria h3{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: 0px;
+	font-family: montserrat, sans-serif;
+	font-kerning: 30px;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+.carrusel{
+	width: 1140px;
+	height: 653px;
+	position: relative;
+	padding-left: 195px;
+}
+.carrusel img{
+	width: 950px;
+	height: 550px;
+}
+.botones{
+	font-family: montserrat;
+	font-size: 30px;
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	border-radius: 50%;
+	background-color: rgba(0,0,0,.7);
+	text-align: center;
+	font-weight: bold;
+	position: absolute;
+	color: #fff;
+	box-shadow: 0 0 10px rgba(255,255,255,.6);
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+.botones:hover{
+	cursor: pointer;
+	transform: scale(1.2,1.2);
+}
+.atras{
+	left: 11.5%;
+	top: calc(50% - 70px);
+}
+.adelante{
+	right: 11.5%;
+	top: calc(50% - 70px);
+}
+.valoraciones{
+	width: 100%;
+	height: 400px;
+	background: #F5F5F5;
+	margin: 0px;
+}
+.valoraciones h3{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: 0px;
+	font-family: montserrat, sans-serif;
+	font-kerning: 30px;
+	font-size: 20px;
+	text-align: center;
+}
+.contenedorvaloraciones h4{
+	margin: 0px;
+	font-family: montserrat, sans-serif;
+	font-size: 16px;
+}
+.contenedorvaloraciones p{
+	font-family: calibri, sans-serif;
+	font-size: 14px;
+	text-align: justify
+}
+.contenedorvaloraciones{
+	display: flex;
+	padding-top: 40px;
+	padding-left: 250px;
+	text-align: center;
+}
+#valoracion1{
+	float: left;
+	width: 250px;
+	margin-right: 50px;
+}
+#valoracion2{
+	float: left;
+	width: 250px;
+	margin-right: 50px;
+}
+#valoracion3{
+	float: left;
+	width: 250px;
+}
+.fondofooter{
+	background: #000000;
+	width: 100%;
+	height: 300px;
+	margin: 0px;
+	padding: 0px;
+}
+#logofooter{
+	text-align: center;
+	padding-top: 50px;
+}
+.contactos h5{
+	margin: 0px;
+	font-family: montserrat, sans-serif;
+	font-size: 16px;
+	color: white;
+}
+.contactos p{
+	font-family: calibri, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	color: white;
+}
+.contactos{
+	display: flex;
+	margin: 0px;
+	text-align: center;
+	padding-left: 225px;
+	padding-top: 60px;
+}
+#conectate{
+	float: left;
+	width: 250px;
+	text-align: center;
+	padding-right: 70px;
+	padding-bottom: 0px;
+}
+#conectate .enlaces{
+	display: flex;
+	padding-left: 50px;
+	padding-top: 10px;
+}
+.enlaces #ig img{
+	float: left;
+	width: 40px;
+	height: 40px;
+	padding-right: 10px;
+}
+.enlaces #fb img{
+	float: left;
+	width: 40px;
+	height: 40px;
+	padding-right: 10px;
+}
+.enlaces #yt img{
+	float: left;
+	width: 40px;
+	height: 40px;
+}
+.enlaces a:hover{
+	opacity: 0.3;
+}
+#contactanos{
+	float: left;
+	width: 250px;
+	padding-right: 70px;
+	text-align: center
+}
+#ubicanos{
+	float: left;
+	width: 250px;
+	text-align: center
+}
+
+
+
+ 
